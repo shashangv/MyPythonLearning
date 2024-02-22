@@ -3,3 +3,7 @@ print(','.join([str(x) for x in range(2000,3201) if x%7==0 and x%5!=0]))
 
 # 2. Write a Python program to accept the user's first and last name and then getting them printed in the the reverse order with a space between first name and last name.
 print('Names reversed -->', str(input('Enter First Name : ') + ' ' + input('Enter Last Name : '))[::-1])
+
+# 3. Write a Python program to find the volume of a sphere with diameter 12 cm. Formula: V=4/3 * π * r 3
+import math
+print('Volume of sphere with diameter 12 cm is {} cubic centimeter'.format((4/3)*math.pi*(12/2)**3))
