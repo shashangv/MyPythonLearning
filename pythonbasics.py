@@ -10,3 +10,4 @@ print('Volume of sphere with diameter 12 cm is {} cubic centimeter'.format((4/3)
 
 # 4. Given a two integer numbers return their product and  if the product is greater than 1000, then return their sum
 (lambda a,b : a+b if a*b > 1000 else a*b)(int(input("Enter 1st number: ")),int(input("Enter 2nd number: ")))
+(lambda a,b : a+b if a*b > 1000 else a*b)(int(input("Enter 1st number: ")),int(input("Enter 2nd number: ")))
