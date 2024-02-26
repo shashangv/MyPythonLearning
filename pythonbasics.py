@@ -13,3 +13,6 @@ print('Volume of sphere with diameter 12 cm is {} cubic centimeter'.format((4/3)
 
 # 5. Given a range of first 10 numbers, Iterate from start number to the end number and print the sum of the current number and previous number
 print('\n'.join([str([x for x in range(10)][i+1] + [x for x in range(10)][i]) for i in range(10-1)]))
+
+# 6: Given a string, display only those characters which are present at an even index number.
+print("Even index chars : ", input('Enter the string: ')[2::2])
