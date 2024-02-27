@@ -16,3 +16,6 @@ print('\n'.join([str([x for x in range(10)][i+1] + [x for x in range(10)][i]) fo
 
 # 6: Given a string, display only those characters which are present at an even index number.
 print("Even index chars : ", input('Enter the string: ')[2::2])
+
+# 7: Given a string and an integer number n, remove characters from a string starting from zero up to n and return a new string
+print("Even index chars : ", input('Enter the string: ')[:int(input('Enter n: '))])
