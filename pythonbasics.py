@@ -19,3 +19,7 @@ print("Even index chars : ", input('Enter the string: ')[2::2])
 
 # 7: Given a string and an integer number n, remove characters from a string starting from zero up to n and return a new string
 print("Even index chars : ", input('Enter the string: ')[:int(input('Enter n: '))])
+
+# 8: Given a list of numbers, return True if first and last number of a list is same
+lst=[int(x) for x in input('Enter list of numbers delimited by comma: ').split(',')]
+print('First & Last number matching ? ',lst[0]==lst[-1])
